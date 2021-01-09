@@ -1,0 +1,38 @@
+/*
+    PG1926 ile ilk proje
+    Tarih: 09.01.2021 20:05
+*/
+
+body{
+    padding:0; margin:0; width:100%; height:100%;
+}
+
+.altkisim {
+    width: 100%; height: auto; text-align: center;
+    position: fixed; bottom:0; background: #2772cd;
+    color:#ffffff;
+    padding:15px 0;
+}
+
+ul{ margin:0; padding:0; }
+
+.menu {
+    width: 100%; height: auto; background: #2772cd;
+    color:#ffffff; text-align:center;
+    padding:15px 0;
+}
+
+.menu li {
+    margin-right:30px; list-style: none; display: inline-block;
+}
+.menu li a { color:#ffffff; text-decoration: none; }
+.menu li a:hover{ color:#000000; }
+.aktif { color:#000000 !important; }
+
+.ortakisim {
+    width: 80%; height: 1000px;
+    /* border:#000000 solid 10px; */
+    margin:auto; padding: 15px; font-size:larger;
+    margin-top:50px; text-align: center;
+}
+
